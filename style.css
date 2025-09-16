@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --morango: #f8a5ce;
+}
+
+* {
+    margin: 0 auto;
+}
+
+body {
+    background-color: #f8a5ce;
+    padding: 20px;
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.04) 25%, transparent 25%) 0 0/32px 32px,
+        linear-gradient(225deg, rgba(255, 255, 255, .04) 25%, transparent 25%) 0 0/32px 32px,
+        linear-gradient(45deg, rgba(0, 0, 0, .18) 25%, transparent 25%) 0 0/32px 32px,
+        linear-gradient(315deg, rgba(0, 0, 0, .18) 25%, transparent 25%) 0 0/32px 32px,
+        var(--morango);
+}
+
+main {
+    max-width: 700px;
+    position: relative;
+    background-color: #ffffab;
+    padding: 10px;
+    /* desgrudar elementos das bordas*/
+    border-radius: 15px;
+    /* arredondar bordas*/
+    box-shadow: 5px 5px 15px #444444;
+    /* sombras valores positivos são direita e rodapé e negativos para esquerda e topo, ultimo valor é expansão da sombra*/
+}
+
+img {
+    border-radius: 15px;
+    /* arredondar as bordas*/
+    max-width: 100%;
+    box-shadow: 5px 5px 15px #444444;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #ff5100;
+    text-shadow: 5px 5px 15px #444444;
+    text-align: center;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+#footer {
+    max-width: 700px;
+    text-align: center;
+    line-height: 80px;
+}
+
+h2 {
+    color: #ff5100;
+    text-shadow: 5px 5px 13px #444444;
+    text-align: center;
+}
